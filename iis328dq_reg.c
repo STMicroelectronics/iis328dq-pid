@@ -317,8 +317,8 @@ int32_t iis328dq_data_rate_get(const stmdev_ctx_t *ctx, iis328dq_dr_t *val)
       *val = IIS328DQ_ODR_1Hz;
       break;
 
-    case IIS328DQ_ODR_5Hz2:
-      *val = IIS328DQ_ODR_5Hz2;
+    case IIS328DQ_ODR_2Hz:
+      *val = IIS328DQ_ODR_2Hz;
       break;
 
     case IIS328DQ_ODR_5Hz:
